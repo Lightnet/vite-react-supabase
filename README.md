@@ -19,6 +19,9 @@ https://supabase.com/docs/guides/with-react
 Does have router page set up.
 
 # Set up:
+
+  Install nodejs.
+
 ```
 npm install
 npm run server
