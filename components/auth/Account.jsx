@@ -100,14 +100,6 @@ const Account = ({ session }) => {
             />
           </div>
           <div>
-            <button className="button primary block" disabled={loading} onClick={updateProfile}>
-              Update profile
-            </button>
-          </div>
-        </>
-      )}
-
-      <div>
       <Avatar
       url={avatar_url}
       size={150}
@@ -117,6 +109,15 @@ const Account = ({ session }) => {
       }}
     />
       </div>
+          <div>
+            <button className="button primary block" disabled={loading} onClick={updateProfile}>
+              Update profile
+            </button>
+          </div>
+        </>
+      )}
+
+      
       <button
         type="button"
         className="button block"
